@@ -1,0 +1,44 @@
+COZY CAFE INTERIOR
+LICENSE AGREEMENT
+
+Copyright © Maygetsu
+All rights reserved.
+
+PERMITTED USE
+
+You may:
+
+* Use these assets in personal projects.
+* Use these assets in commercial projects.
+* Modify and edit the assets to fit your project.
+* Use the assets in games released on any platform.
+
+NOT PERMITTED
+
+You may not:
+
+* Resell the assets as standalone files.
+* Redistribute the assets, modified or unmodified.
+* Repackage the assets as another asset pack.
+* Upload the assets to marketplaces, asset stores, or AI training datasets.
+* Claim the artwork as your own creation.
+
+SOURCE FILES
+
+The included Aseprite source file is provided for editing and customization purposes only and is subject to the same license terms.
+
+CREDIT
+
+Credit is appreciated but not required.
+
+Example:
+
+Pixel Art Assets by Maygetsu
+
+CONTACT
+
+If you have questions regarding this license, please contact the creator through the official itch.io page.
+
+Thank you for supporting independent game art.
+
+— Maygetsu
