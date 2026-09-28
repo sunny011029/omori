@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,7 +121,3199 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cozy_cafe_characters_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 864
+        width: 25
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59306d473922dc49b997921fa4f0187
+      internalID: 1787917783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 864
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51711d4d6542a1f45bdeb0aa12395e18
+      internalID: -1309300105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 864
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed374ba7cc045d84a90bdd3da4b49ec8
+      internalID: 1537338354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 864
+        width: 25
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5606554c41ba9f04fb309bbcef75b627
+      internalID: -816463288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 864
+        width: 23
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8e913c5b406bb43b68cb5114d8f14d
+      internalID: 406100550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 864
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7d73dc15313dd40a055caaecff5955
+      internalID: -685439077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_6
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 864
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf01be90b1f164489fedddd063f124b
+      internalID: 2101188876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_7
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 864
+        width: 23
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8e039846a1e7f44b493a290f72a686
+      internalID: -1013778364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 864
+        width: 23
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ca66e23e3c4cf438ec501981dac8b8
+      internalID: -1950982816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 864
+        width: 24
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105b2c4939ac14844b1d94b22c8eae8c
+      internalID: 1053331528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 864
+        width: 24
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e981a669f439cf42ab144bbdbf7fe30
+      internalID: 67929326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 864
+        width: 23
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7e70309617ef146a16254b94752ac1
+      internalID: -440516891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 800
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a9794067f373e40b08e043d59595a7
+      internalID: 1475566363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 800
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab54a565c6cb4d428d378d086b63082
+      internalID: -1481825426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_14
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 800
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a843689be0031443be0ecac330005f7
+      internalID: -1669697641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_15
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 800
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c8a3ffc7b0b1f46aae011a7173dad8
+      internalID: -1506433511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 800
+        width: 23
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92b15f11a650e24aa435c47d9ab47fd
+      internalID: 975113911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_17
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 800
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a7a0652805c124a99c8d2d2c0c5325
+      internalID: 277310810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_18
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 800
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2113675aeddaf4f4db087d3ca4353db3
+      internalID: 1059217551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 800
+        width: 23
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85a47318c5d8dd41ab261cb29b23ae4
+      internalID: 662637449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 800
+        width: 22
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe20e479247c4544865b367b7d26770
+      internalID: 2109403203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_21
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 800
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a10ecde4802154ab232ed59b17bc1c
+      internalID: -1492530900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_22
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 800
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21f8a7a90f86a0489799491a1ff2f7e
+      internalID: 1345066197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_23
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 800
+        width: 22
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b226acaafba259419b029b99a678e98
+      internalID: 1853179656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 736
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34ac218035c9c24485221ba6100bdf5
+      internalID: 1067000004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 736
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eaa5de03f5128a49968e701cd6ba00b
+      internalID: 1852502219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 736
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96ff6b2e3a76954bb5143f9afe23d61
+      internalID: -791884624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_27
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 736
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83fc988e0deb344dba1805e25f25f08
+      internalID: -898050794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_28
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 736
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43e4633e9014544ca6f5c06fad360e4
+      internalID: 1137038907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_29
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 736
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adc325f4242d484cb5538d151686e45
+      internalID: -1674912025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_30
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 736
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d9e96d10c816a40869bec7f2895dd6
+      internalID: 744177991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_31
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 736
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf4d5dc7d3fce247be276bdf6615580
+      internalID: -1913537726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_32
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 736
+        width: 25
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c247a701cf4fe3f428f6fca1814dd853
+      internalID: 233475138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_33
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 736
+        width: 26
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf36be064c807e47a0c7d430a6a95c0
+      internalID: -1290811557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_34
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 736
+        width: 26
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b347d53ff4540741993cdc09d3618a5
+      internalID: 1843440697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_35
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 742
+        width: 23
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88365d54c590b94890005a507399314
+      internalID: -388503525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_36
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 672
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e926620999bb68945afd24859d37a0b4
+      internalID: -1917188249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_37
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 672
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed72f278e3842d346afbb46d322dc1fa
+      internalID: -525449595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_38
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 672
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58613e8e708665941915d4e8e3cdde8d
+      internalID: -1078611667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_39
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 672
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159c5026e3ae58a49802428976697959
+      internalID: 1944824465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 672
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531fa24a22b11434cb109e57513e831d
+      internalID: -358401574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaa61dab1a85944db02f1d488297a15
+      internalID: 1718539350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_42
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 672
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e25c42b7f48b447b8d5c4fab0613cb
+      internalID: -1929387487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 672
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bcf7ae0a4b50542a02ad19677475e7
+      internalID: -2011227638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_44
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 672
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0c1711d0198fe40ba60e2513b54a51
+      internalID: -322445325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_45
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 672
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a210b45cc6c80149bb8985297cc56e5
+      internalID: 464019832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_46
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 672
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75db04c7b0613c41a3d0005e3b3d57c
+      internalID: 11672926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_47
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 678
+        width: 24
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127ab418c9381294ea2c09253ce98830
+      internalID: 148509428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 608
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2fca0e7b090454397e1849117a128e
+      internalID: -780107782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 608
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b22411102aea5469f9f81a0673606f
+      internalID: -1145379600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 608
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77701d95b9d7f4c4e94d50ff6ba8764f
+      internalID: 1316921408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_51
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 608
+        width: 24
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ae0de283968ac49a8549f348e4644a
+      internalID: -1815231885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_52
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 608
+        width: 24
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca4379a5ff9f834eb8ca2159a7c8793
+      internalID: 709441496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_53
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 608
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abbf99e119a09242a55417a3f1d7ceb
+      internalID: -1335699808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_54
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 608
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2650de08d2e32a47b360d782a6c635c
+      internalID: 826398437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_55
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 608
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed7b3022c740ca478d96415674610b8
+      internalID: 1328525325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_56
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 608
+        width: 24
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29597baee79c57444bd5e7c56bc1f05f
+      internalID: 2131423302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 608
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e11fb564bbab740ae8975e6f0e7110
+      internalID: -983469563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_58
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 608
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347b8b1b182402040b9f6b55a34c6286
+      internalID: 649462844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_59
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 614
+        width: 19
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbe989c4dd6e86419c4d54b6f2d4a40
+      internalID: 126704258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_60
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 544
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f56166e1b027c047b4ed0ab7387f8a1
+      internalID: 909329939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_61
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 544
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9a276fe45fd5941a672eaba0a5c79b
+      internalID: 752658425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_62
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 544
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62679357a4691c943b3f259bee6488d4
+      internalID: -809064491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_63
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 544
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1034f72a6b718a14aaed5cc676ee4db6
+      internalID: -1992362954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_64
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 544
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4af854d273caf0489a3f10385d4a475
+      internalID: -43028892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_65
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 544
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37653b3e7bd0a8744b346d688a537cad
+      internalID: 1428211308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_66
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 544
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49422df0d765df14ca82449fbe4bb6f5
+      internalID: 504383902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_67
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 544
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5b8132eac2ff84ca2c4f046785a2a8
+      internalID: -166591765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_68
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 544
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dbb555032c9024c94840f470d7c6cb
+      internalID: 1606545426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_69
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 544
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b337c7d0b642224b85d172b10c3e675
+      internalID: 1537140645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_70
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 544
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd8f7ec5377f944597be69b329c5d74
+      internalID: 576111435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_71
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 550
+        width: 26
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7ce49342e1c76409fd275436618162
+      internalID: 1501511786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_72
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 480
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a41add107abe4c4ab16a961b0d79947
+      internalID: -63775055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_73
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 480
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b56999d9e2b67428c8e624943fa4b7
+      internalID: 1478957312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_74
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 480
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaba58179e5e43c409e6a191e1692472
+      internalID: 1653624013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_75
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 480
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaebd304eae129c478fac5bc8c55bf3c
+      internalID: 822208347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_76
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935aa42642a59d04cb937127502af1cd
+      internalID: 1719073592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_77
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc540bc3463fea4c937d527e15618d0
+      internalID: 369583515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_78
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 480
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba80dfdf080df14fb5b1c6aff47eae4
+      internalID: 2007256623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d63c67851d8cf47a97bc814873ac8c
+      internalID: 569140547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_80
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 480
+        width: 22
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7e1512bc19d554ba74db81fd67c94a
+      internalID: 2030059261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_81
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 480
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da608657ebce7a4192fd49d7ae6fe78
+      internalID: -882318140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_82
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 480
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84414e6433497d94981927708889e0e2
+      internalID: 370681174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_83
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 486
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5596dc5ae38957147b5093c69e320a2d
+      internalID: -695580179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_84
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 22
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f810153ec60f37449b061e19dfa2459
+      internalID: 343084868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_85
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 416
+        width: 20
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee11e4e5e6824bf40bec7eb3efc54d6f
+      internalID: 175844982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 22
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b676703c6a96864aa84946193f5dd30
+      internalID: -1962394439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_87
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 416
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729946fc2c3607a47b623106d0be9974
+      internalID: 208916007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_88
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7cc6a5c69c7e24e9cb6ea0821fe8fb
+      internalID: -146105388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_89
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 22
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9bf4245cab8664ba508295fc8fbbac
+      internalID: -1962335467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_90
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 416
+        width: 20
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a521c059552199449704b5dc94f0c85
+      internalID: -1622100150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 22
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a877aeb6c63d44191449b4cf7bc5db
+      internalID: 1646956345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_92
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 416
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d2c62548082a641936d541127abf80
+      internalID: -1858074723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_93
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 416
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a992d9455c6a1784c871ba45ebdc4ae5
+      internalID: 1300430533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_94
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 416
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ef3b6784c18dd4780d1c7991fa921e
+      internalID: -1935165148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_95
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 422
+        width: 19
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c1f534e4b0f864b835abc5af6edd97
+      internalID: 784092433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_96
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 21
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12575cdd1c43c8c4cafbd0550433ac85
+      internalID: -1868782256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_97
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 352
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78c5dd68ad9bf8429aa663907f45409
+      internalID: -1388490704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_98
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 352
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b16bc45bb9f71043859661cac780bbe
+      internalID: 152228502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_99
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 352
+        width: 21
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b1e82eac5a60a43aa62121ffcef9ea
+      internalID: -1694634311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_100
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 352
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ce8924eae6685478d12b4fbcc9a977
+      internalID: -1919578971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_101
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 352
+        width: 20
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58214218b84117242bf1e6af9697d810
+      internalID: 1088892761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_102
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 352
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05bb3209e1c95c4282e17c5349a0d56
+      internalID: 1887430804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_103
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 352
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb17902de2c1b8c428a88d69c559250e
+      internalID: -1062161858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_104
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 352
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3207fa30f7f1b46bec80016cd22972
+      internalID: -2120250834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_105
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 352
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe63a9b43ffb28b449db814f033eeb70
+      internalID: 1132168580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_106
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 352
+        width: 20
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07db31eb0028705458fcf01cd40c59f7
+      internalID: 1075233852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_107
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 352
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534ad271afe766e439509f7dad2080ce
+      internalID: 1417796470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_108
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 288
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f4f945dee46b74895a4cb6bac2d859
+      internalID: -1449988597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_109
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5123ee1f558f1844c82a348c39b7e759
+      internalID: 487883403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_110
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6a38256c7b4774abab7017e4edd48a
+      internalID: 122503242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_111
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 288
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e2471bccead6142851e0f8348ac31f
+      internalID: -1622078492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_112
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 288
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be21984887ea7964b8e5bda8c11f8845
+      internalID: -1245862980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_113
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 288
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3030db0482ecd69468028ad77a39313f
+      internalID: 2107679398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_114
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 288
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecad401656ba8344d9c28ae44dc9ee61
+      internalID: -1945506506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_115
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 288
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df56393ddd6f894097584d96b90eaf7
+      internalID: 852523261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_116
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 224
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877cc4efd0ec8834e972d99c5d20940d
+      internalID: -832991850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_117
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b766ec8dbbb45974f955384f01c49c64
+      internalID: -894238401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_118
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 224
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabb3c0bea4158143b07282996553090
+      internalID: -202978452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_119
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 224
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c98565bf47f724da66643ccc65e994
+      internalID: 415932519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_120
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 224
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b648460452e3be449b5011c93f05496
+      internalID: 908433390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_121
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 224
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f394826c1fc24084ea4e2a66972d8f76
+      internalID: -1165667299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_122
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 224
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a508fd1f07e291044a504401b02e3b45
+      internalID: -63887283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_123
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 224
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafe59b4b0bc24e45841fa5684c72d40
+      internalID: 430790613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_124
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 21
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa4ef2ad27d4a74d85652cbddeec1e1
+      internalID: 1110035503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_125
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 160
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d40f3feaa24824992ccd88cbe20840
+      internalID: 1395754786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_126
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 160
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2896f9895d44d2b4f8f4592a18906e97
+      internalID: -2124124131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_127
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 160
+        width: 21
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760d813d332917049ad5e5dde9e99be1
+      internalID: 1501969491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_128
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 160
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b8339cc9679f04a97f8999a6c45e59
+      internalID: 1458868976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_129
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 160
+        width: 20
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae40b481e8cbe024e989aade88c690db
+      internalID: -564662286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_130
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 160
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4284f35915d7a48b0274f628de94d4
+      internalID: 1930618428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_131
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e6ce286cbb1954e8d9dae427ef97f5
+      internalID: -1997940479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_132
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 160
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047a06b944865254ea8c92131bf60e35
+      internalID: 794551651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_133
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 160
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7e90acd106e2341ace9048f8cae031
+      internalID: 1385318779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_134
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 160
+        width: 20
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553d6a3780f385147a4523e4c3a6e763
+      internalID: 1710088070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_135
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 160
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54f7974285e86d49b36d1dbcf88cb54
+      internalID: -450672875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_136
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7304991e99035c408b8806efafabe81
+      internalID: -1099517968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_137
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3924ea7e908afc4a9271d5b10c7bd26
+      internalID: 763599791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_138
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 96
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8b7432f95e4a5458a7be70608478e4
+      internalID: 444263823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_139
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48888fd264623e498e1dd3011413a0e
+      internalID: 1813314360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_140
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 96
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9761ce504a8f5c4d928edd5fa9b8b32
+      internalID: -2126254281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_141
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 96
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158e6ed9d92f06d45a266a614a44a0d0
+      internalID: -1070575547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_142
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 96
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448ea26d2b6c83749a9cde18df209683
+      internalID: 106041094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_143
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 96
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261482e8fd61ef247802112489c4f013
+      internalID: 1309927222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_144
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af816943e93b33b40bf565d5bbcd51cb
+      internalID: 1028877479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_145
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bf1c4eecbefa14c8571cb3760761df
+      internalID: 1044057642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_146
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 32
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf38283f0eb8964aa39fbc6129901a5
+      internalID: -1115054429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_147
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f224c16b0d4eb43b7f9c50ea05cc0e
+      internalID: 1710737692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_148
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 32
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af6716d59f348f49a4955f2905bf8eb
+      internalID: 1593879959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_149
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 32
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609bf1789576f454c884196fde215aa1
+      internalID: -673915242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_150
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 32
+        width: 22
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329a338f640f7e04f927000ee522c9cb
+      internalID: -102185036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozy_cafe_characters_151
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 32
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3613782b9df2e9b4ea2faeba40a6b10a
+      internalID: 1702379340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +3324,159 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cozy_cafe_characters_0: 1787917783
+      cozy_cafe_characters_1: -1309300105
+      cozy_cafe_characters_10: 67929326
+      cozy_cafe_characters_100: -1919578971
+      cozy_cafe_characters_101: 1088892761
+      cozy_cafe_characters_102: 1887430804
+      cozy_cafe_characters_103: -1062161858
+      cozy_cafe_characters_104: -2120250834
+      cozy_cafe_characters_105: 1132168580
+      cozy_cafe_characters_106: 1075233852
+      cozy_cafe_characters_107: 1417796470
+      cozy_cafe_characters_108: -1449988597
+      cozy_cafe_characters_109: 487883403
+      cozy_cafe_characters_11: -440516891
+      cozy_cafe_characters_110: 122503242
+      cozy_cafe_characters_111: -1622078492
+      cozy_cafe_characters_112: -1245862980
+      cozy_cafe_characters_113: 2107679398
+      cozy_cafe_characters_114: -1945506506
+      cozy_cafe_characters_115: 852523261
+      cozy_cafe_characters_116: -832991850
+      cozy_cafe_characters_117: -894238401
+      cozy_cafe_characters_118: -202978452
+      cozy_cafe_characters_119: 415932519
+      cozy_cafe_characters_12: 1475566363
+      cozy_cafe_characters_120: 908433390
+      cozy_cafe_characters_121: -1165667299
+      cozy_cafe_characters_122: -63887283
+      cozy_cafe_characters_123: 430790613
+      cozy_cafe_characters_124: 1110035503
+      cozy_cafe_characters_125: 1395754786
+      cozy_cafe_characters_126: -2124124131
+      cozy_cafe_characters_127: 1501969491
+      cozy_cafe_characters_128: 1458868976
+      cozy_cafe_characters_129: -564662286
+      cozy_cafe_characters_13: -1481825426
+      cozy_cafe_characters_130: 1930618428
+      cozy_cafe_characters_131: -1997940479
+      cozy_cafe_characters_132: 794551651
+      cozy_cafe_characters_133: 1385318779
+      cozy_cafe_characters_134: 1710088070
+      cozy_cafe_characters_135: -450672875
+      cozy_cafe_characters_136: -1099517968
+      cozy_cafe_characters_137: 763599791
+      cozy_cafe_characters_138: 444263823
+      cozy_cafe_characters_139: 1813314360
+      cozy_cafe_characters_14: -1669697641
+      cozy_cafe_characters_140: -2126254281
+      cozy_cafe_characters_141: -1070575547
+      cozy_cafe_characters_142: 106041094
+      cozy_cafe_characters_143: 1309927222
+      cozy_cafe_characters_144: 1028877479
+      cozy_cafe_characters_145: 1044057642
+      cozy_cafe_characters_146: -1115054429
+      cozy_cafe_characters_147: 1710737692
+      cozy_cafe_characters_148: 1593879959
+      cozy_cafe_characters_149: -673915242
+      cozy_cafe_characters_15: -1506433511
+      cozy_cafe_characters_150: -102185036
+      cozy_cafe_characters_151: 1702379340
+      cozy_cafe_characters_16: 975113911
+      cozy_cafe_characters_17: 277310810
+      cozy_cafe_characters_18: 1059217551
+      cozy_cafe_characters_19: 662637449
+      cozy_cafe_characters_2: 1537338354
+      cozy_cafe_characters_20: 2109403203
+      cozy_cafe_characters_21: -1492530900
+      cozy_cafe_characters_22: 1345066197
+      cozy_cafe_characters_23: 1853179656
+      cozy_cafe_characters_24: 1067000004
+      cozy_cafe_characters_25: 1852502219
+      cozy_cafe_characters_26: -791884624
+      cozy_cafe_characters_27: -898050794
+      cozy_cafe_characters_28: 1137038907
+      cozy_cafe_characters_29: -1674912025
+      cozy_cafe_characters_3: -816463288
+      cozy_cafe_characters_30: 744177991
+      cozy_cafe_characters_31: -1913537726
+      cozy_cafe_characters_32: 233475138
+      cozy_cafe_characters_33: -1290811557
+      cozy_cafe_characters_34: 1843440697
+      cozy_cafe_characters_35: -388503525
+      cozy_cafe_characters_36: -1917188249
+      cozy_cafe_characters_37: -525449595
+      cozy_cafe_characters_38: -1078611667
+      cozy_cafe_characters_39: 1944824465
+      cozy_cafe_characters_4: 406100550
+      cozy_cafe_characters_40: -358401574
+      cozy_cafe_characters_41: 1718539350
+      cozy_cafe_characters_42: -1929387487
+      cozy_cafe_characters_43: -2011227638
+      cozy_cafe_characters_44: -322445325
+      cozy_cafe_characters_45: 464019832
+      cozy_cafe_characters_46: 11672926
+      cozy_cafe_characters_47: 148509428
+      cozy_cafe_characters_48: -780107782
+      cozy_cafe_characters_49: -1145379600
+      cozy_cafe_characters_5: -685439077
+      cozy_cafe_characters_50: 1316921408
+      cozy_cafe_characters_51: -1815231885
+      cozy_cafe_characters_52: 709441496
+      cozy_cafe_characters_53: -1335699808
+      cozy_cafe_characters_54: 826398437
+      cozy_cafe_characters_55: 1328525325
+      cozy_cafe_characters_56: 2131423302
+      cozy_cafe_characters_57: -983469563
+      cozy_cafe_characters_58: 649462844
+      cozy_cafe_characters_59: 126704258
+      cozy_cafe_characters_6: 2101188876
+      cozy_cafe_characters_60: 909329939
+      cozy_cafe_characters_61: 752658425
+      cozy_cafe_characters_62: -809064491
+      cozy_cafe_characters_63: -1992362954
+      cozy_cafe_characters_64: -43028892
+      cozy_cafe_characters_65: 1428211308
+      cozy_cafe_characters_66: 504383902
+      cozy_cafe_characters_67: -166591765
+      cozy_cafe_characters_68: 1606545426
+      cozy_cafe_characters_69: 1537140645
+      cozy_cafe_characters_7: -1013778364
+      cozy_cafe_characters_70: 576111435
+      cozy_cafe_characters_71: 1501511786
+      cozy_cafe_characters_72: -63775055
+      cozy_cafe_characters_73: 1478957312
+      cozy_cafe_characters_74: 1653624013
+      cozy_cafe_characters_75: 822208347
+      cozy_cafe_characters_76: 1719073592
+      cozy_cafe_characters_77: 369583515
+      cozy_cafe_characters_78: 2007256623
+      cozy_cafe_characters_79: 569140547
+      cozy_cafe_characters_8: -1950982816
+      cozy_cafe_characters_80: 2030059261
+      cozy_cafe_characters_81: -882318140
+      cozy_cafe_characters_82: 370681174
+      cozy_cafe_characters_83: -695580179
+      cozy_cafe_characters_84: 343084868
+      cozy_cafe_characters_85: 175844982
+      cozy_cafe_characters_86: -1962394439
+      cozy_cafe_characters_87: 208916007
+      cozy_cafe_characters_88: -146105388
+      cozy_cafe_characters_89: -1962335467
+      cozy_cafe_characters_9: 1053331528
+      cozy_cafe_characters_90: -1622100150
+      cozy_cafe_characters_91: 1646956345
+      cozy_cafe_characters_92: -1858074723
+      cozy_cafe_characters_93: 1300430533
+      cozy_cafe_characters_94: -1935165148
+      cozy_cafe_characters_95: 784092433
+      cozy_cafe_characters_96: -1868782256
+      cozy_cafe_characters_97: -1388490704
+      cozy_cafe_characters_98: 152228502
+      cozy_cafe_characters_99: -1694634311
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
