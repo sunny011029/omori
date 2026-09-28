@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 [DisallowMultipleComponent, RequireComponent(typeof(Camera))]
@@ -22,6 +23,7 @@ public sealed class TopDownCameraFollow : MonoBehaviour
     private Vector2 velocity;
     private float cameraDepth;
     private Camera viewCamera;
+    private SchoolCameraFootprint footprint;
 
     public Transform Target
     {
@@ -46,6 +48,7 @@ public sealed class TopDownCameraFollow : MonoBehaviour
     {
         cameraDepth = transform.position.z;
         viewCamera = GetComponent<Camera>();
+        footprint = GetComponent<SchoolCameraFootprint>();
         velocity = Vector2.zero;
         ConstrainNow();
     }
@@ -53,6 +56,22 @@ public sealed class TopDownCameraFollow : MonoBehaviour
     // Sample the interpolated character Transform after movement, not its fixed-step body position.
     private void LateUpdate()
     {
+        if (footprint != null && footprint.enabled && footprint.IsConfigured)
+        {
+            footprint.PrepareView(viewCamera,target,preferredOrthographicSize,Time.deltaTime);
+            Vector2 schoolNext=transform.position;
+            if(target!=null && Time.deltaTime>0f)
+            {
+                Vector2 desired=footprint.Project((Vector2)target.position+offset,viewCamera);
+                schoolNext=smoothTime<=0f ? desired : Vector2.SmoothDamp(schoolNext,desired,ref velocity,smoothTime,Mathf.Infinity,Time.deltaTime);
+            }
+            else velocity=Vector2.zero;
+            Vector2 safe=footprint.Project(schoolNext,viewCamera);
+            if(safe.x!=schoolNext.x) velocity.x=0;
+            if(safe.y!=schoolNext.y) velocity.y=0;
+            transform.position=new Vector3(safe.x,safe.y,cameraDepth);
+            return;
+        }
         // Recompute view extents each frame, including while paused or missing a target.
         bool confined = TryGetCameraLimits(out Vector2 min, out Vector2 max);
         Vector2 next = transform.position;
@@ -95,6 +114,16 @@ public sealed class TopDownCameraFollow : MonoBehaviour
 
     public void ConstrainNow()
     {
+        if (footprint == null) footprint=GetComponent<SchoolCameraFootprint>();
+        if (viewCamera == null) viewCamera=GetComponent<Camera>();
+        if (footprint != null && footprint.enabled && footprint.IsConfigured)
+        {
+            footprint.PrepareView(viewCamera,target,preferredOrthographicSize,0f);
+            Vector2 safe=footprint.Project(transform.position,viewCamera);
+            transform.position=new Vector3(safe.x,safe.y,transform.position.z);
+            velocity=Vector2.zero;
+            return;
+        }
         if (!TryGetCameraLimits(out Vector2 min, out Vector2 max)) return;
         Vector2 position = Clamp(transform.position, min, max);
         transform.position = new Vector3(position.x, position.y, transform.position.z);
