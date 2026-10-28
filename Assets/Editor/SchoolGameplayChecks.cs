@@ -45,6 +45,8 @@ public static class SchoolGameplayChecks
             if(!started)
             {
                 root=GameObject.Find("School_ReferenceLayout").transform;
+                var chapter=root.GetComponentInChildren<ChapterOneScene>();
+                if(chapter!=null) { chapter.enabled=false; chapter.interaction.enabled=false; }
                 actor=root.Find("06_Player/BlondWhite").GetComponent<TopDownCharacterController>();
                 if(!actor.GetComponent<Animator>().isInitialized) return;
                 body=actor.GetComponent<Rigidbody2D>(); camera=root.Find("Main Camera").GetComponent<Camera>();
@@ -198,6 +200,11 @@ public static class SchoolGameplayChecks
     }
     static void Capture(string path)
     {
+        if(root.GetComponentInChildren<ChapterOneScene>(true)!=null)
+        {
+            Directory.CreateDirectory("Recovery/ChapterOne/Regression");
+            path="Recovery/ChapterOne/Regression/"+Path.GetFileName(path);
+        }
         var rt=new RenderTexture(640,640,24); var old=RenderTexture.active; float aspect=camera.aspect;
         var tex=new Texture2D(640,640,TextureFormat.RGB24,false); camera.aspect=1;
         try

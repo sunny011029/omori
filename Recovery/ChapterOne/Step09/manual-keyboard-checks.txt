@@ -1,0 +1,13 @@
+Native Unity Game view keyboard verification, 2026-10-24
+PASS Isolated save under D:/omori/Temp/ChapterOneTests; formal save not used.
+PASS E opens the sheila sharing invitation; 1 gives exactly one dessert and shows its saved flavour.
+PASS 1 advances the two dialogue choices and plays the draft preservation animation.
+PASS Completed animation presents the cloud question, then the heroine's observation.
+PASS E clears Recurring_0, Recurring_1, Recurring_2 individually, reaching 1/3, 2/3, 3/3.
+PASS 1 opens the chapter checklist; the same item returns and the first chapter completes.
+PASS D during ending dialogue leaves player at (10.70000, 0.40000, 0.00000), movement disabled.
+PASS Choosing free exploration restores movement. J opens/closes the expanded 8-page record.
+PASS Right arrow after closing dialogue moves x from 10.70000 to 10.77000, movement enabled.
+PASS Manual helper only positions the isolated player and captures state; no story state advanced by helper.
+PASS Exited Play mode, returned to School edit mode.
+ALL PASS

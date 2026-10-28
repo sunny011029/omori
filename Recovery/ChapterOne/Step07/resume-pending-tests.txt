@@ -1,0 +1,4 @@
+Native Unity step 7 checks: resume-pending
+PASS Cold reload restores conversation, pending pickup and inventory correctly
+PASS No runtime exceptions; all displayed dialogue fits
+ALL PASS

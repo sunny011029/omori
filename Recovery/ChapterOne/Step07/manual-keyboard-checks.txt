@@ -1,0 +1,13 @@
+Unity 2022.3.60f1c1 actual Windows keyboard verification, 2026-10-24.
+Used isolated preview state and Temp/ChapterOneTests/progress.json. No formal save writes.
+PASS Q hides clouds and pending powder; Q again restores both and pickup prompt.
+PASS E opens pickup confirmation; 2 closes without consuming the powder.
+PASS E reopens, 1 collects: powder disappears, HUD reports one ingredient, gray clouds remain.
+PASS E closes reward message; I opens inventory showing 微涩的抹茶粉 × 1.
+PASS I closes inventory. After ensuring Game focus and English input, D moves right and changes facing.
+PASS I reopens inventory; A does not move or turn the player while the panel is open.
+PASS Escape closes inventory; A then moves left and changes facing.
+PASS Isolated save records powderCollected=true, drawingQuestionsMask=4 and finalPaperMask=0.
+PASS Ctrl+P ends Play mode and returns to the original School edit scene.
+PASS Formal save, train scene, original character sprite meta and recolored school sprite meta hashes unchanged.
+ALL PASS

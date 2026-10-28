@@ -1,0 +1,6 @@
+Native Unity step 7 checks: resume-collected
+PASS Cold reload restores conversation, pending pickup and inventory correctly
+PASS New game resets story; third question alone can advance without mandatory first two
+PASS Older saves migrate safely; invalid reward chain falls back to valid backup
+PASS No runtime exceptions; all displayed dialogue fits
+ALL PASS

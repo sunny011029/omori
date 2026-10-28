@@ -1,0 +1,7 @@
+Native Unity Game-view keyboard verification, 2026-10-24
+PASS E: tidied the existing scattered books; HUD changed 0/4 -> 1/4 (25%); adjacent large bookcase remained.
+PASS Esc: dismissed the cleanup dialogue and released movement.
+PASS D: character moved right and changed facing after dialogue.
+PASS Q: grey cloud overlays appeared; second Q hid them and updated the HUD.
+Game view was explicitly focused by clicking inside its rendered area before keys.
+All sessions used the isolated Temp/ChapterOneTests save, not the player's save.

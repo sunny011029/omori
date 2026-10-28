@@ -1,0 +1,5 @@
+Native Unity cold-resume verification with isolated save
+PASS Fresh Play session from School automatically resumes saved MochaStore scene and all progress
+PASS Cold-resumed game returns to School with cleanup, permission, camera and spawn intact
+PASS No runtime exceptions/errors; isolated save only
+ALL PASS

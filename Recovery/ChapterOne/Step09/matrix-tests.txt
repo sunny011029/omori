@@ -1,0 +1,12 @@
+Native Unity Step 9: matrix
+PASS Flavour Balanced + None completes same chapter; both respectful replies supported
+PASS Flavour Balanced + Milk completes same chapter; both respectful replies supported
+PASS Flavour Balanced + RedBean completes same chapter; both respectful replies supported
+PASS Flavour Low + None completes same chapter; both respectful replies supported
+PASS Flavour Low + Milk completes same chapter; both respectful replies supported
+PASS Flavour Low + RedBean completes same chapter; both respectful replies supported
+PASS Flavour High + None completes same chapter; both respectful replies supported
+PASS Flavour High + Milk completes same chapter; both respectful replies supported
+PASS Flavour High + RedBean completes same chapter; both respectful replies supported
+PASS No runtime exceptions; all dialogue fits
+ALL PASS

@@ -1,0 +1,4 @@
+Native Unity Step 8: resume-selection
+PASS Cold reload correctly restores resume-selection
+PASS No runtime errors; dialogue fits
+ALL PASS

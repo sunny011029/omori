@@ -1,0 +1,5 @@
+Native Unity Step 9: persistence
+PASS Save failures roll back dessert, draft action, cleanup and completion
+PASS Corrupt save fallback, legacy Step 8 migration and new game reset
+PASS No runtime exceptions; all dialogue fits
+ALL PASS

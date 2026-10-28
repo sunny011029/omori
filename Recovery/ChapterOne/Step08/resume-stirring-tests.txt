@@ -1,0 +1,4 @@
+Native Unity Step 8: resume-stirring
+PASS Cold reload correctly restores resume-stirring
+PASS No runtime errors; dialogue fits
+ALL PASS

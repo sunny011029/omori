@@ -1,0 +1,54 @@
+[
+  {
+    "Report": "ChapterOneChecks-regression.txt",
+    "Passed": true
+  },
+  {
+    "Report": "ChapterOneConversationChecks-regression.txt",
+    "Passed": true
+  },
+  {
+    "Report": "ChapterOneCraftingChecks-regression.txt",
+    "Passed": true
+  },
+  {
+    "Report": "ChapterOneInvestigationChecks-regression.txt",
+    "Passed": true
+  },
+  {
+    "Report": "ending-tests.txt",
+    "Passed": true
+  },
+  {
+    "Report": "manual-keyboard-checks.txt",
+    "Passed": true
+  },
+  {
+    "Report": "matrix-tests.txt",
+    "Passed": true
+  },
+  {
+    "Report": "persistence-tests.txt",
+    "Passed": true
+  },
+  {
+    "Report": "resume-checklist-tests.txt",
+    "Passed": true
+  },
+  {
+    "Report": "resume-complete-tests.txt",
+    "Passed": true
+  },
+  {
+    "Report": "resume-draft-pending-tests.txt",
+    "Passed": true
+  },
+  {
+    "Report": "resume-partial-cleaning-tests.txt",
+    "Passed": true
+  },
+  {
+    "Report": "resume-tasting-tests.txt",
+    "Passed": true
+  }
+]

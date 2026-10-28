@@ -1,0 +1,2 @@
+PASS
+Only newly added cloud/placemat positions adjusted; MochaStore saved.

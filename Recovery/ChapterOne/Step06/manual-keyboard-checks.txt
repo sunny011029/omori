@@ -1,0 +1,11 @@
+Native Unity manual keyboard verification, 2026-10-24:
+PASS Game view receives input after clicking the rendered game area.
+PASS Q enables visible clouds and changes the interaction prompt.
+PASS E opens observe/talk/leave; 1 observes Xiaoyu's desk and cloud.
+PASS E confirms evidence, closes dialogue, and updates HUD from 0/4 to 1/4.
+PASS J opens journal with only desk/cloud marked recorded; J closes it.
+PASS D moves the player and changes facing after closing the journal.
+PASS Q hides clouds and restores ordinary talk prompt.
+Isolated Temp/ChapterOneTests/progress.json confirms investigationMask=2.
+Exited Play mode; School edit scene remains saved and unchanged.
+ALL PASS

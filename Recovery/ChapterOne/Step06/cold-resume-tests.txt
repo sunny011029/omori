@@ -1,0 +1,5 @@
+Native Unity investigation cold-resume checks
+PASS Fresh Play starts in saved shop and restores all four clues, two optional notes and permission
+PASS Cold-resumed player can return to School with investigation ready for the next step
+PASS No runtime errors/exceptions
+ALL PASS

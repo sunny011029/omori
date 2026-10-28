@@ -1,0 +1,171 @@
+{
+  "source": "Assets\\角色\\cozy_cafe_characters.png",
+  "source_sha256": "0d88c7f0788a799eb5cb3ce11073df0ace9752b4f6d4242da9c56b562c71a9e0",
+  "frames": [
+    {
+      "role": "xiaoyu",
+      "pose": "standing",
+      "source_rect_top_left_xywh": [
+        31,
+        229,
+        23,
+        43
+      ],
+      "preview_file": "xiaoyu-standing.png"
+    },
+    {
+      "role": "xiaoyu",
+      "pose": "sit-front",
+      "source_rect_top_left_xywh": [
+        350,
+        231,
+        23,
+        41
+      ],
+      "preview_file": "xiaoyu-sit-front.png"
+    },
+    {
+      "role": "xiaoyu",
+      "pose": "sit-side-a",
+      "source_rect_top_left_xywh": [
+        386,
+        231,
+        21,
+        41
+      ],
+      "preview_file": "xiaoyu-sit-side-a.png"
+    },
+    {
+      "role": "xiaoyu",
+      "pose": "sit-side-b",
+      "source_rect_top_left_xywh": [
+        423,
+        231,
+        21,
+        41
+      ],
+      "preview_file": "xiaoyu-sit-side-b.png"
+    },
+    {
+      "role": "xiaoyu",
+      "pose": "sit-back",
+      "source_rect_top_left_xywh": [
+        458,
+        231,
+        24,
+        35
+      ],
+      "preview_file": "xiaoyu-sit-back.png"
+    },
+    {
+      "role": "classmate-1",
+      "pose": "standing",
+      "source_rect_top_left_xywh": [
+        32,
+        295,
+        23,
+        41
+      ],
+      "preview_file": "classmate-1-standing.png"
+    },
+    {
+      "role": "classmate-1",
+      "pose": "sit-front",
+      "source_rect_top_left_xywh": [
+        349,
+        297,
+        24,
+        39
+      ],
+      "preview_file": "classmate-1-sit-front.png"
+    },
+    {
+      "role": "classmate-1",
+      "pose": "sit-side-a",
+      "source_rect_top_left_xywh": [
+        384,
+        297,
+        23,
+        39
+      ],
+      "preview_file": "classmate-1-sit-side-a.png"
+    },
+    {
+      "role": "classmate-1",
+      "pose": "sit-side-b",
+      "source_rect_top_left_xywh": [
+        423,
+        297,
+        23,
+        39
+      ],
+      "preview_file": "classmate-1-sit-side-b.png"
+    },
+    {
+      "role": "classmate-1",
+      "pose": "sit-back",
+      "source_rect_top_left_xywh": [
+        461,
+        297,
+        19,
+        33
+      ],
+      "preview_file": "classmate-1-sit-back.png"
+    },
+    {
+      "role": "classmate-2",
+      "pose": "standing",
+      "source_rect_top_left_xywh": [
+        30,
+        355,
+        26,
+        45
+      ],
+      "preview_file": "classmate-2-standing.png"
+    },
+    {
+      "role": "classmate-2",
+      "pose": "sit-front",
+      "source_rect_top_left_xywh": [
+        348,
+        357,
+        26,
+        43
+      ],
+      "preview_file": "classmate-2-sit-front.png"
+    },
+    {
+      "role": "classmate-2",
+      "pose": "sit-side-a",
+      "source_rect_top_left_xywh": [
+        382,
+        357,
+        26,
+        43
+      ],
+      "preview_file": "classmate-2-sit-side-a.png"
+    },
+    {
+      "role": "classmate-2",
+      "pose": "sit-side-b",
+      "source_rect_top_left_xywh": [
+        421,
+        357,
+        26,
+        43
+      ],
+      "preview_file": "classmate-2-sit-side-b.png"
+    },
+    {
+      "role": "classmate-2",
+      "pose": "sit-back",
+      "source_rect_top_left_xywh": [
+        457,
+        357,
+        26,
+        37
+      ],
+      "preview_file": "classmate-2-sit-back.png"
+    }
+  ]
+}

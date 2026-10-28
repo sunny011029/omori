@@ -1,0 +1,4 @@
+Native Sprite Editor import and targeted scene update
+PASS school: compact cloud + names saved; 856 original layout/visual/collision/player/camera components unchanged.
+PASS MochaStore: compact cloud + names saved; 250 original layout/visual/collision/player/camera components unchanged.
+PASS 4 compact cloud expressions, draft, powder and runtime art references imported.

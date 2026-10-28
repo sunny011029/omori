@@ -1,0 +1,16 @@
+Unity 2022.3.60f1c1, omori, native Windows keyboard verification
+Save isolation: Temp/ChapterOneTests/progress.json
+PASS E opens the existing craft table from its reachable floor anchor.
+PASS 1 starts crafting; 2 selects balanced sweetness; 3 selects no auxiliary ingredient.
+PASS 1 explicitly adds powder, which becomes the one reserved batch.
+PASS Three separate 1 presses record exactly three stirs and then show ready to bake.
+PASS After the first stir, Escape closes the panel; E resumes at 1 / 3 with the chosen recipe intact.
+PASS Baking changes from the short countdown to ready to pack without granting a dessert automatically.
+PASS Explicit 1 packs one dessert; HUD shows one portable macaron.
+PASS I opens inventory with balanced / no additional ingredient; I closes it.
+PASS D does not move the character with inventory open; D moves and turns right after inventory closes.
+PASS Final saved stage=8, stirCount=3, sweetness=0, filling=0; historical powderCollected remains true.
+PASS Ctrl+P exits isolated Play mode; School edit mode restored with no unsaved scene indicator.
+PASS Formal save and protected scene/import files retain their original hashes.
+Note: initially the Chinese IME intercepted E; switched to English and refocused the actual Game viewport. One incidental window-focus loss closed the panel safely; resumed at the saved step.
+ALL PASS

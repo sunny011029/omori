@@ -1,0 +1,4 @@
+Native Unity Step 9: resume-complete
+PASS Cold startup restores resume-complete
+PASS No runtime exceptions; all dialogue fits
+ALL PASS

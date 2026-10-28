@@ -1,0 +1,13 @@
+Native Unity Step 8: matrix
+PASS Flavour Balanced + None produces one dessert without grading
+PASS Flavour Balanced + Milk produces one dessert without grading
+PASS Flavour Balanced + RedBean produces one dessert without grading
+PASS Flavour Low + None produces one dessert without grading
+PASS Flavour Low + Milk produces one dessert without grading
+PASS Flavour Low + RedBean produces one dessert without grading
+PASS Flavour High + None produces one dessert without grading
+PASS Flavour High + Milk produces one dessert without grading
+PASS Flavour High + RedBean produces one dessert without grading
+PASS Invalid crafting state falls back to backup; legacy saves and new game reset safely
+PASS No runtime errors; dialogue fits
+ALL PASS

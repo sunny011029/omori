@@ -1,0 +1,7 @@
+Native Unity Step 8: run
+PASS Crafting requires acquired powder; existing table reachable
+PASS Recipe revision, exactly three stirs, safe baking, interruption, travel, save failure rollback, one packed result
+PASS Packed item survives travel; gray clouds and recurring papers remain; story phase unchanged
+PASS Existing four dessert definitions and starting cake preserved
+PASS No runtime errors; dialogue fits
+ALL PASS

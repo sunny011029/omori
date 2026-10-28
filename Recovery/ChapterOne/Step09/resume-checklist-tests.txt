@@ -1,0 +1,4 @@
+Native Unity Step 9: resume-checklist
+PASS Cold startup restores resume-checklist
+PASS No runtime exceptions; all dialogue fits
+ALL PASS

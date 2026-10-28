@@ -1,0 +1,9 @@
+Unity native import and compilation: PASS.
+Investigation integration, old-save compatibility, duplicate clue protection: ALL PASS.
+Separate-session cold resume and scene return: ALL PASS.
+Previous first-section playable-flow regression: ALL PASS.
+Weather native render and dialogue text-fit checks: ALL PASS.
+Real Q/E/1/J/D keyboard verification: ALL PASS.
+School, MochaStore, train, original character and recolor metadata: byte-identical to pre-Step06 snapshot.
+Player save: original story/cleanup/permission/scene preserved; normal resume added zero-initialized investigation fields. Tests used an isolated save.
+Final Unity state: School, Edit mode.

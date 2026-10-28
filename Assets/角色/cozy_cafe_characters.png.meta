@@ -3314,6 +3314,321 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Xiaoyu_Stand
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 672
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5e3598a20de194ca5b491b6e1137a8
+      internalID: 484941855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Xiaoyu_Front
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 672
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c228f6c56b362154784d16608e2deca0
+      internalID: 879796137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Xiaoyu_SideA
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 672
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf123bc108eacd849aa34151616eb900
+      internalID: 418259652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Xiaoyu_SideB
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 672
+        width: 21
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46870d9ef5c27b64bad31014457a2f59
+      internalID: 638252224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Xiaoyu_Back
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 678
+        width: 24
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d7f8e8c5f1bc242ae0b7e7ad7f5960
+      internalID: -1707508564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Classmate01_Stand
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 608
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c6f40160f6f8f4cae853d0229126fc
+      internalID: 1786064142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Classmate01_Front
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 608
+        width: 24
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e6049ffc8df4b448b1970530d5350d
+      internalID: -458237888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Classmate01_SideA
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 608
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0024ff62289103342af0bc941da63cc8
+      internalID: 786817801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Classmate01_SideB
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 608
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83db6c30cdc9cf44e8254d26995f3930
+      internalID: -657320213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Classmate01_Back
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 614
+        width: 19
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6b93c9250acdc49bda7bc2117e08b0
+      internalID: 418181159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Classmate02_Stand
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 544
+        width: 26
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936657ebc8aa09547a3b21c84eb9a97a
+      internalID: 603917998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Classmate02_Front
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 544
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9524f21e68d0864eb9d73ac4ac35d78
+      internalID: 1087958175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Classmate02_SideA
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 544
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068660294184d164f82f32ff54bf7845
+      internalID: 789377834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Classmate02_SideB
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 544
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5deefd9b0a9b2e34f8666bd99c766734
+      internalID: 30563907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SchoolNPC_Classmate02_Back
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 550
+        width: 26
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0a118d2e3b7584285e8b020fd33133
+      internalID: -468118648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -3325,6 +3640,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      SchoolNPC_Classmate01_Back: 418181159
+      SchoolNPC_Classmate01_Front: -458237888
+      SchoolNPC_Classmate01_SideA: 786817801
+      SchoolNPC_Classmate01_SideB: -657320213
+      SchoolNPC_Classmate01_Stand: 1786064142
+      SchoolNPC_Classmate02_Back: -468118648
+      SchoolNPC_Classmate02_Front: 1087958175
+      SchoolNPC_Classmate02_SideA: 789377834
+      SchoolNPC_Classmate02_SideB: 30563907
+      SchoolNPC_Classmate02_Stand: 603917998
+      SchoolNPC_Xiaoyu_Back: -1707508564
+      SchoolNPC_Xiaoyu_Front: 879796137
+      SchoolNPC_Xiaoyu_SideA: 418259652
+      SchoolNPC_Xiaoyu_SideB: 638252224
+      SchoolNPC_Xiaoyu_Stand: 484941855
       cozy_cafe_characters_0: 1787917783
       cozy_cafe_characters_1: -1309300105
       cozy_cafe_characters_10: 67929326

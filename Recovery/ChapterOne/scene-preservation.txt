@@ -1,0 +1,6 @@
+PASS
+School and MochaStore saved.
+All original transforms, renderer state, floor tiles, colliders, players and camera settings preserved.
+4 cleanup points, 3 recurring points, encounter/portal, shop counter targets and return entrance installed.
+Existing Step02 images copied unchanged and sliced using native Sprite Editor data providers.
+Build scenes: School, MochaStore.

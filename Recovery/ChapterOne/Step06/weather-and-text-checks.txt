@@ -1,0 +1,19 @@
+Native Unity weather visual checks
+NPC_Xiaoyu Weather_0 bounds=Center: (2.12, 8.64, 0.00), Extents: (0.01, 0.04, 0.10) color=RGBA(0.640, 0.730, 0.830, 0.800) layer=0 order=15
+NPC_Xiaoyu Weather_1 bounds=Center: (2.50, 8.57, 0.00), Extents: (0.01, 0.04, 0.10) color=RGBA(0.640, 0.730, 0.830, 0.800) layer=0 order=15
+NPC_Xiaoyu Weather_2 bounds=Center: (2.88, 8.50, 0.00), Extents: (0.01, 0.04, 0.10) color=RGBA(0.640, 0.730, 0.830, 0.800) layer=0 order=15
+NPC_Xiaoyu Weather_3 bounds=Center: (2.93, 8.59, 0.00), Extents: (0.02, 0.02, 0.10) color=RGBA(0.620, 0.830, 0.730, 0.478) layer=0 order=15
+NPC_Xiaoyu Weather_4 bounds=Center: (3.05, 8.43, 0.00), Extents: (0.02, 0.02, 0.10) color=RGBA(0.620, 0.830, 0.730, 0.613) layer=0 order=15
+NPC_Xiaoyu Weather_5 bounds=Center: (3.17, 8.27, 0.00), Extents: (0.02, 0.02, 0.10) color=RGBA(0.620, 0.830, 0.730, 0.644) layer=0 order=15
+PASS Rendered weather preview: NPC_Xiaoyu
+NPC_Classmate01 Weather_0 bounds=Center: (12.10, 6.36, 0.00), Extents: (0.04, 0.05, 0.10) color=RGBA(0.910, 0.850, 0.610, 0.850) layer=0 order=15
+NPC_Classmate01 Weather_1 bounds=Center: (12.05, 6.30, 0.00), Extents: (0.04, 0.05, 0.10) color=RGBA(0.910, 0.850, 0.610, 0.850) layer=0 order=15
+NPC_Classmate01 Weather_2 bounds=Center: (12.10, 6.24, 0.00), Extents: (0.04, 0.05, 0.10) color=RGBA(0.910, 0.850, 0.610, 0.850) layer=0 order=15
+PASS Rendered weather preview: NPC_Classmate01
+NPC_Classmate02 Weather_0 bounds=Center: (5.20, 6.21, 0.00), Extents: (0.17, 0.02, 0.10) color=RGBA(0.720, 0.720, 0.780, 0.550) layer=0 order=15
+NPC_Classmate02 Weather_1 bounds=Center: (5.79, 6.14, 0.00), Extents: (0.21, 0.02, 0.10) color=RGBA(0.720, 0.720, 0.780, 0.550) layer=0 order=15
+NPC_Classmate02 Weather_2 bounds=Center: (5.25, 6.07, 0.00), Extents: (0.25, 0.02, 0.10) color=RGBA(0.720, 0.720, 0.780, 0.550) layer=0 order=15
+PASS Rendered weather preview: NPC_Classmate02
+PASS All journal pages fit the panel, including undiscovered hints
+PASS No runtime errors/exceptions
+ALL PASS

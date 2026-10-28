@@ -1,0 +1,13 @@
+School interactions native Play mode tests
+PASS 7 unique targets; font; no missing scripts; far-away and through-wall interactions rejected
+PASS Initial cabinet opens/closes; repeated input debounced; cabinets independent
+PASS Second designated cabinet opens/closes without premature scene travel
+PASS Permission denied before asking; dialogue locks movement; cancellation restores movement
+PASS Both background NPCs have distinct dialogue and cannot grant sketchbook permission
+PASS Explicit consent unlocks two-page sketchbook; next/previous/close work without story reward
+PASS Daily sketchbook cannot expose investigation clues; chapter stage gate works independently of permission
+PASS Notice readable; movement ownership restored on close and disable
+PASS All three NPC feet colliders block movement; front/rear character sorting correct
+PASS Preview screenshots captured; no changes to shared character controller or camera
+PASS no runtime errors or exceptions
+ALL PASS

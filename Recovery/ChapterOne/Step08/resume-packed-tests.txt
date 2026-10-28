@@ -1,0 +1,4 @@
+Native Unity Step 8: resume-packed
+PASS Cold reload correctly restores resume-packed
+PASS No runtime errors; dialogue fits
+ALL PASS

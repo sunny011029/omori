@@ -5246,6 +5246,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: School_LockerLowerDoor
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 100
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4321fcbdc2f3c4d97cf27679ca85c4
+      internalID: 1051004628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -5271,6 +5292,7 @@ TextureImporter:
       School_DeskRight: 740995769
       School_Globe: -2002512879
       School_Locker: 1740692438
+      School_LockerLowerDoor: 1051004628
       School_LongDesk: -1939742143
       School_SidePapers: -734596914
       School_SideTeacherDesk: 1427168610

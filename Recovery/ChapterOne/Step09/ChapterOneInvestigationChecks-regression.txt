@@ -1,0 +1,11 @@
+Native Unity investigation integration checks
+PASS Investigation gated by shop introduction; private sketchbook requires permission
+PASS Free exploration: public notice can be first, cancelled reading gives no clue
+PASS Consent survives mode change; two-page reading and explicit confirmation required
+PASS Four clues finish in alternate order without classmates; no ingredient, ending, or paper cleanup awarded
+PASS Journal overview, evidence detail, optional notes, paging, J toggle and movement lock
+PASS Optional daily observations, repeated Q toggling, no duplicate accents, persisted clues/notes
+PASS Shop round trip, persistent journal, safe return camera, crafting still gated
+PASS Legacy first-section save retains progress/consent; missing clue fields default correctly; corrupt save uses backup
+PASS No runtime errors/exceptions
+ALL PASS

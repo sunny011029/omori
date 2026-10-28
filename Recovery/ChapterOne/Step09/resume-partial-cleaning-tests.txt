@@ -1,0 +1,4 @@
+Native Unity Step 9: resume-partial-cleaning
+PASS Cold startup restores resume-partial-cleaning
+PASS No runtime exceptions; all dialogue fits
+ALL PASS

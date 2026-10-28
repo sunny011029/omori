@@ -1,0 +1,4 @@
+Native Unity Step 9: resume-tasting
+PASS Cold startup restores resume-tasting
+PASS No runtime exceptions; all dialogue fits
+ALL PASS

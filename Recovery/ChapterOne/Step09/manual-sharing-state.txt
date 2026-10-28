@@ -1,0 +1,10 @@
+Scene=School
+Stage=Tasting
+Dialogue=True
+Speaker=sheila · 尝一口
+Text=sheila 尝了一口抹茶马卡龙。
+哇，有点苦……不过后面还挺香的。
+还有一点奶香，吃起来软软的。
+Player=(2.50000, 6.55000, 0.00000)
+Movement=False
+IsolatedSave=D:\omori\Temp/ChapterOneTests/progress.json

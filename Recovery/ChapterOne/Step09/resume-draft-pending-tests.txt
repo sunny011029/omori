@@ -1,0 +1,4 @@
+Native Unity Step 9: resume-draft-pending
+PASS Cold startup restores resume-draft-pending
+PASS No runtime exceptions; all dialogue fits
+ALL PASS

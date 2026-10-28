@@ -1,0 +1,10 @@
+Scene=School
+Stage=Complete
+Dialogue=False
+Speaker=第一章 · 打扫不完的教室
+Text=“把教室打扫干净”——刚划掉的同一条事项，悄悄恢复了。
+这片终于干净了，可清单为什么又恢复了？
+sheila 的故事暂告一段落。
+Player=(10.70000, 0.40000, 0.00000)
+Movement=True
+IsolatedSave=D:\omori\Temp/ChapterOneTests/progress.json

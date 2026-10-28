@@ -1,0 +1,11 @@
+Native Unity chapter one Play-mode integration checks
+PASS Fresh state, 15 unique targets, locked story transitions, cabinet opens before portal unlock
+PASS Four tasks reach 100%; only scattered books hide; exit triggers exactly three abnormal papers
+PASS Repeat interactions say cannot clean, keep papers and do not inflate progress
+PASS Cancelled encounter resumes; complete conversation unlocks designated portal once
+PASS Shop introduction, exact ingredient name, cloud-vision unlock, missing-ingredient gate and save reload
+PASS Return spawn, persistent cleanup/consent, cloud-vision on/off and investigation stage
+PASS Second full round trip preserves progress without duplicate players/cameras or repeated intro
+PASS Restart confirmation, cancellation, clean reset and visual restoration
+PASS No runtime exceptions/errors; isolated save only
+ALL PASS

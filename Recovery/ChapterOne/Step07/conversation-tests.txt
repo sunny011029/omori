@@ -1,0 +1,6 @@
+Native Unity step 7 checks: run
+PASS Story prerequisites, names, compact cloud art and dormant pickup
+PASS All answers, draft consent, interruption/resume and explicit pickup gating
+PASS Reachable pickup, unique inventory item, round-trip persistence, gray clouds/trash retained, shop recipe preview
+PASS No runtime exceptions; all displayed dialogue fits
+ALL PASS

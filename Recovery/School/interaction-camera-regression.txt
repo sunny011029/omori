@@ -1,0 +1,12 @@
+School gameplay verification
+PASS four directions, normalized diagonals, Walk/Idle and vertical facing.
+PASS desk collisions and matching feet-based sorting on both sides.
+PASS complete book sprite, right-facing desk assets, curtains behind character and ground-only door mats.
+PASS both classroom passageways, partition, exterior/back walls and entrance stop.
+PASS existing rectangular camera confinement regression.
+PASS camera route at (600, 600), including both rooms, doors, corridor and entrance.
+PASS camera route at (960, 540), including both rooms, doors, corridor and entrance.
+PASS camera route at (540, 960), including both rooms, doors, corridor and entrance.
+PASS camera route at (1280, 360), including both rooms, doors, corridor and entrance.
+PASS paused resize/clamp, 169 live viewport samples.
+ALL PASS

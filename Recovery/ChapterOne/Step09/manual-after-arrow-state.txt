@@ -1,0 +1,10 @@
+Scene=School
+Stage=Complete
+Dialogue=False
+Speaker=调查记录  1 / 8  ·  4 / 4
+Text=已记录：再生画纸    已记录：课桌与灰云
+已记录：公开比赛通知    已记录：sheila的画本
+用下方选项回看详情；同学近况属于可选观察。
+Player=(10.77000, 0.40000, 0.00000)
+Movement=True
+IsolatedSave=D:\omori\Temp/ChapterOneTests/progress.json

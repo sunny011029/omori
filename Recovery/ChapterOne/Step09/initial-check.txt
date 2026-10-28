@@ -1,0 +1,8 @@
+Native Unity Step 9: run
+FAIL
+System.Exception: Rain/link state 3
+  at ChapterOneEndingChecks.Require (System.Boolean value, System.String message) [0x00009] in D:\omori\Assets\Editor\ChapterOneEndingChecks.cs:62 
+  at ChapterOneEndingChecks.CheckWeather () [0x0007d] in D:\omori\Assets\Editor\ChapterOneEndingChecks.cs:111 
+  at ChapterOneEndingChecks+<>c.<Run>b__33_16 () [0x0000f] in D:\omori\Assets\Editor\ChapterOneEndingChecks.cs:131 
+  at ChapterOneEndingChecks+<>c__DisplayClass16_0.<Add>b__0 () [0x00001] in D:\omori\Assets\Editor\ChapterOneEndingChecks.cs:61 
+  at ChapterOneEndingChecks.Poll () [0x002a9] in D:\omori\Assets\Editor\ChapterOneEndingChecks.cs:55 
