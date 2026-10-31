@@ -1,0 +1,4 @@
+PASS Original scene transforms, tiles, collisions and renderers preserved except cake transform.
+PASS Original cabinet / cake order 5 / glass foreground order 6 share the original Y-sorted group.
+PASS 12 existing case tiles reused; original texture unchanged; glass shader compiled.
+Cake bounds=Center: (4.30, 1.12, 0.00), Extents: (0.31, 0.26, 0.01)

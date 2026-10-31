@@ -8,12 +8,17 @@ public sealed class ChapterOneWeather : MonoBehaviour
     SpriteRenderer[] marks;
     Vector3[] origins;
     float elapsed;
+    SpriteRenderer[] cloudParts;
+    Color[] greyColors;
     public void Configure(SchoolInteractionKind value)
     {
         if(marks!=null) return;
         kind=value;
         var source=GetComponentInChildren<SpriteRenderer>(true);
         if(source==null || source.sprite==null) return;
+        cloudParts=GetComponentsInChildren<SpriteRenderer>(true);
+        greyColors=new Color[cloudParts.Length];
+        for(int i=0;i<cloudParts.Length;i++) greyColors[i]=cloudParts[i].color;
         marks=new SpriteRenderer[kind==SchoolInteractionKind.Xiaoyu?6:3];
         origins=new Vector3[marks.Length];
         for(int i=0;i<marks.Length;i++)
@@ -47,13 +52,17 @@ public sealed class ChapterOneWeather : MonoBehaviour
     public void ApplyStability()
     {
         if(kind!=SchoolInteractionKind.Xiaoyu || marks==null) return;
-        for(int i=3;i<marks.Length;i++) marks[i].enabled=ChapterOneProgress.Instance==null || !ChapterOneProgress.Instance.DraftKept;
+        bool resolved=ChapterOneProgress.Instance!=null && ChapterOneProgress.Instance.DraftKept;
+        for(int i=0;i<marks.Length;i++) marks[i].enabled=!resolved;
+        for(int i=0;i<cloudParts.Length;i++)
+            cloudParts[i].color=resolved ? (cloudParts[i].name=="Rim"?new Color(.72f,.82f,.83f):cloudParts[i].name=="Top"?Color.white:new Color(.94f,.98f,1f)) : greyColors[i];
     }
     void OnEnable() { elapsed=0; ApplyStability(); }
     void Update()
     {
         if(marks==null) return;
         elapsed+=Time.deltaTime;
+        ApplyStability();
         for(int i=0;i<marks.Length;i++)
         {
             if(kind==SchoolInteractionKind.Xiaoyu)
@@ -61,7 +70,6 @@ public sealed class ChapterOneWeather : MonoBehaviour
                 if(i<3) marks[i].transform.localPosition=origins[i]+Vector3.down*(Mathf.Repeat(elapsed*.27f+i*.07f,.23f));
                 else
                 {
-                    marks[i].enabled=ChapterOneProgress.Instance==null || !ChapterOneProgress.Instance.DraftKept;
                     var c=marks[i].color; c.a=.35f+.3f*(.5f+.5f*Mathf.Sin(elapsed*1.5f-i)); marks[i].color=c;
                 }
             }

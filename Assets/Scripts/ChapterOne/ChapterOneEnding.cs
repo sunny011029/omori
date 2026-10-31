@@ -23,9 +23,9 @@ public sealed class ChapterOneEnding
     public bool Active => Stage!=ChapterOneEndingStage.None;
     public string ProgressLabel => P.ChapterComplete ? "第一章 · 打扫不完的教室 · 已完成" :
         P.DraftKept ? "sheila 关联区域  "+P.FinalPaperCount+" / 3    "+Mathf.RoundToInt(P.FinalPaperCount*100f/3)+"%" : "分享甜品 · 抹茶马卡龙";
-    public string Objective => P.ChapterComplete ? "可继续探索 · J 回看记录与食谱 · 学校出口回看结尾" :
+    public string Objective => P.ChapterComplete ? "可继续探索 · J 回看记录、食谱与章末清单" :
         !scene.isSchool ? "返回学校，继续 sheila 的故事" :
-        Stage==ChapterOneEndingStage.Checklist ? "局部清扫完成 · 与 sheila 交谈或到出口，查看章末清单" :
+        Stage==ChapterOneEndingStage.Checklist ? "局部清扫完成 · 回去与 sheila 交谈" :
         Stage==ChapterOneEndingStage.FinalCleaning ? "魔法垃圾已停止再生 · 清理原位置的 3 处残留画纸" :
         Stage==ChapterOneEndingStage.CloudQuestion ? "草稿已收好 · 回到 sheila 身边，看看发生了什么" :
         Stage==ChapterOneEndingStage.DraftPending ? "sheila 准备保留第一版草稿 · 回到她身边继续" : "回到 sheila 身边，听她把话说完";
@@ -52,17 +52,13 @@ public sealed class ChapterOneEnding
         if(item!=null && item.action==ChapterOneAction.RecurringPaper && P.DraftKept)
         {
             if(Stage==ChapterOneEndingStage.CloudQuestion) ShowCloudQuestion();
-            else if(P.CompleteFinalPaper(item.index))
-            {
-                if(P.LocalAreaComplete) ShowSettlement();
-                else UI.Say("收起残留画纸","这次，废纸终于可以收走了。\n原来的位置没有再出现新的纸团。\nsheila 关联区域："+P.FinalPaperCount+" / 3 处。任务只计算这些残留画纸。");
-            }
-            else if(!string.IsNullOrEmpty(P.SaveError)) SaveFailure();
+            // Successful pickups update the world and HUD without stopping movement.
+            else if(!P.CompleteFinalPaper(item.index) && !string.IsNullOrEmpty(P.SaveError)) SaveFailure();
             return true;
         }
         if(item!=null && item.action==ChapterOneAction.ShopCloud && Active)
         {
-            UI.Say("抹茶云",P.DraftKept ? "云还在，纸团却没有再出现……\n甜品和灰云，到底是怎么回事呢？" :
+            UI.Say("抹茶云",P.DraftKept ? "她的云变白了，纸团也停止再生了。\n也去听听 Elaine 和 nate 的故事吧。" :
                 "你已经把甜品带给她了。\n回到学校，慢慢听她把话说完吧。",scene.cloudPortrait); return true;
         }
         return false;
@@ -83,13 +79,15 @@ public sealed class ChapterOneEnding
             case ChapterOneEndingStage.FinalCleaning:
                 UI.ShowDialogue("sheila","第一版已经收好了。比赛的事还是有点担心……\n不过，我想先休息一下，之后再继续画。",sheila?.portrait,
                     new[]{"看看保留下来的草稿","继续整理残留画纸"},new Action[]{ShowKeptDraft,UI.CloseDialogue}); break;
-            case ChapterOneEndingStage.Checklist: ShowSettlement(); break;
+            case ChapterOneEndingStage.Checklist:
+                UI.ShowDialogue("sheila","谢谢你帮忙收好了那些画纸。\n第一版我已经放进画本了。我想先休息一下，之后再继续画。",sheila?.portrait,
+                    new[]{"整理自己的清单","稍后再聊"},new Action[]{ShowSettlement,UI.CloseDialogue}); break;
             case ChapterOneEndingStage.Complete:
                 UI.ShowDialogue("sheila","第一版已经收好了。比赛的事还是有点担心……\n不过，我想先休息一下，之后再继续画。",sheila?.portrait,
                     new[]{"看看保留下来的草稿","回看这一章的记录","先不打扰了"},new Action[]{ShowKeptDraft,()=>scene.Investigation.ShowJournal(6),UI.CloseDialogue}); break;
         }
     }
-    void ShowKeptDraft() => UI.ShowIllustration("保留下来的第一版","她把第一版草稿夹进画本，没有再揉掉。\n灰云还在落着细雨，地上的纸团却停止了再生。",draft,
+    void ShowKeptDraft() => UI.ShowIllustration("保留下来的第一版","她把第一版草稿夹进画本，没有再揉掉。\n她头上的云变白了，地上的纸团也停止了再生。",draft,
         new[]{"轻轻合上画本"},new Action[]{UI.CloseDialogue});
     public static string TasteResponse(MatchaSweetness sweetness,MatchaFilling filling)
     {
@@ -113,13 +111,13 @@ public sealed class ChapterOneEnding
             new[]{"先停一下（之后可以继续）"},new Action[]{UI.CloseDialogue});
         animationTime=0; draftAnimation=true; checklistAnimation=false; UI.SetDraftAnimation(0);
     }
-    void ShowCloudQuestion() => UI.ShowDialogue("抹茶云","诶？云怎么还在？",scene.cloudPortrait,new[]{"看向课桌旁"},new Action[]{()=>
+    void ShowCloudQuestion() => UI.ShowDialogue("抹茶云","看，sheila 的云变白了！",scene.cloudPortrait,new[]{"看向课桌旁"},new Action[]{()=>
         UI.ShowDialogue("我","可是……纸团好像不再出现了。",null,new[]{"完成最后的清扫"},new Action[]{()=>Act(P.StartFinalCleaning,UI.CloseDialogue)})});
 
     public void ShowSettlement()
     {
         if(!P.LocalAreaComplete) return;
-        UI.ShowDialogue("区域清扫完成！","sheila 关联区域 · 异常循环已稳定 · 100%\n抹茶马卡龙食谱已收录，这次的口味是："+scene.Crafting.Flavour+"。\n常规清扫：4 / 4。局部残留画纸：3 / 3。她的灰云还在。",null,
+        UI.ShowDialogue("区域清扫完成！","sheila 关联区域 · 异常循环已稳定 · 100%\n抹茶马卡龙食谱已收录，这次的口味是："+scene.Crafting.Flavour+"。\n常规清扫：4 / 4。局部残留画纸：3 / 3。她头上的云已经变白。",null,
             new[]{"整理自己的清单","回看人物记录","稍后继续"},new Action[]{StartChecklist,()=>scene.Investigation.ShowJournal(6),UI.CloseDialogue});
     }
     public void StartChecklist()
@@ -163,12 +161,11 @@ public sealed class ChapterOneEnding
     public bool HandleExit()
     {
         if(!Active) return false;
-        if(P.ChapterComplete) ShowEnding();
-        else if(P.LocalAreaComplete) ShowSettlement();
-        else UI.Say("先等一下",Objective);
+        // The exit never advances or replays the ending; return to sheila first.
+        if(!P.ChapterComplete) UI.Say("先等一下",Objective);
         return true;
     }
-    public string DiaryText => P.DraftKept ? "sheila 把第一版草稿收进画本，决定先休息、之后再画。\n她仍担心比赛；灰云继续落雨，纸团却停止了再生。\n"+
+    public string DiaryText => P.DraftKept ? "sheila 把第一版草稿收进画本，决定先休息、之后再画。\n她决定先休息；头上的云变白，纸团停止了再生。\n"+
         (P.LocalAreaComplete?"我收走了 3 处残留画纸，只完成了她的关联区域。":"原来的废纸还在，得由我逐一收走。") :
         "sheila 尝了我做的抹茶马卡龙："+scene.Crafting.Flavour+"。\n她说第一版也没有那么差。\n这时灰云和地上的纸团都还在。";
     public void ShowRecipes(int page=0)

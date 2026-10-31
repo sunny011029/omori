@@ -1,0 +1,4 @@
+Native Unity Step 9: visual
+PASS White cloud, other NPC clouds unchanged, portal rendered across animation frames
+PASS No runtime exceptions; all dialogue fits
+ALL PASS

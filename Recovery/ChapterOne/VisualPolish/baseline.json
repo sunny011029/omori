@@ -1,0 +1,17 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "5CB873904B2B455A9A6C622997A9C47A1AA7FD129DC250634DB6C4504AC8880F",
+    "Path": "D:\\omori\\Assets\\Scenes\\School.unity"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "520AE268170763C659E04F600514EA4BD2E55B1098BED6D6F0B812B329550C7A",
+    "Path": "D:\\omori\\Assets\\Scenes\\MochaStore.unity"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "C897E9A55884676CC6977930CF86C3790EB1032D28E482ED98BC5F5EA8BB5E1A",
+    "Path": "C:\\Users\\14989\\AppData\\LocalLow\\DefaultCompany\\omori\\MatchaCloud\\chapter01.json"
+  }
+]

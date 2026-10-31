@@ -60,10 +60,17 @@ public sealed class ChapterOneScene : MonoBehaviour
     }
     void Awake()
     {
+        ChapterOneAudio.Ensure();
         Progress=ChapterOneProgress.Ensure(); interaction.chapter=this; Investigation=new ChapterOneInvestigation(this);
         DrawingStory=new ChapterOneDrawingStory(this);
         Crafting=new ChapterOneCrafting(this);
         Ending=new ChapterOneEnding(this);
+        if(portalGlow!=null)
+        {
+            var effect=portalGlow.GetComponent<ChapterOnePortalEffect>();
+            if(effect==null)effect=portalGlow.AddComponent<ChapterOnePortalEffect>();
+            effect.Configure();
+        }
         var matcha=isSchool?encounterCloud:shopCloud;
         if(matcha!=null) { var expression=matcha.GetComponent<ChapterOneCloudExpression>(); if(expression==null) expression=matcha.AddComponent<ChapterOneCloudExpression>(); expression.scene=this; }
         if(visionClouds!=null) foreach(var cloud in visionClouds)

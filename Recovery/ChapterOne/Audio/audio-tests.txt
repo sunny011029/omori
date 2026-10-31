@@ -1,0 +1,4 @@
+Native Unity Step 9: audio
+PASS Music starts, loops and persists across scenes; accepted interactions and choices sound once; rejected actions silent; focus pause/resume
+PASS No runtime exceptions; all dialogue fits
+ALL PASS

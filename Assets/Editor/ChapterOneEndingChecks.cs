@@ -10,7 +10,7 @@ using UnityEngine.SceneManagement;
 [InitializeOnLoad]
 public static class ChapterOneEndingChecks
 {
-    const string Request="Library/ChapterOneEndingChecks.request",Report="Library/ChapterOneEndingChecks.report.txt",Output="Recovery/ChapterOne/Step09/";
+    const string Request="Library/ChapterOneEndingChecks.request",Report="Library/ChapterOneEndingChecks.report.txt",Output="Recovery/ChapterOne/Audio/";
     static bool started,background,preview;
     static double next,deadline;
     static Queue<Func<bool>> steps;
@@ -42,6 +42,8 @@ public static class ChapterOneEndingChecks
                 errors.Clear(); Application.logMessageReceived+=Log; steps=new Queue<Func<bool>>();
                 if(preview) { Add(()=>LoadPacked()); Add(()=>{Near("NPC_Xiaoyu");ui.player.UseKeyboardInput=true;}); }
                 else if(mode.StartsWith("resume")) Resume(mode);
+                else if(mode=="audio") Audio();
+                else if(mode=="visual") Visual();
                 else if(mode=="matrix") Matrix();
                 else if(mode=="persistence") Persistence();
                 else Run();
@@ -89,7 +91,7 @@ public static class ChapterOneEndingChecks
     {
         Close();var d=JsonUtility.FromJson<ChapterOneSave>(File.ReadAllText("Recovery/ChapterOne/Step08/packed-save.json"));
         d.scene=scene.SceneId;d.sweetness=sweet;d.filling=filling;
-        File.WriteAllText(p.SavePath,JsonUtility.ToJson(d));p.Reload();Stage(ChapterOneEndingStage.None);
+        Directory.CreateDirectory(Path.GetDirectoryName(p.SavePath));File.WriteAllText(p.SavePath,JsonUtility.ToJson(d));p.Reload();Stage(ChapterOneEndingStage.None);
         Require(p.HasDessert&&!p.DraftKept&&!p.ChapterComplete,"Legacy packed save migration");
     }
     static void WaitDraft()=>steps.Enqueue(()=>{
@@ -110,7 +112,9 @@ public static class ChapterOneEndingChecks
         Require(scene.visionClouds.All(c=>c.activeSelf),"A gray cloud was removed");
         var cloud=Target("NPC_Xiaoyu").GetComponentInChildren<ChapterOneWeather>(true);
         Require(cloud!=null,"Sheila weather absent");
-        for(int i=0;i<6;i++)Require(cloud.transform.Find("Weather_"+i).GetComponent<SpriteRenderer>().enabled==(i<3),"Rain/link state "+i);
+        Require(cloud.transform.Find("Body").GetComponent<SpriteRenderer>().color.r>.9f,"Resolved cloud not white");
+        Require(scene.visionClouds.Where(c=>c!=cloud.gameObject).All(c=>c.transform.Find("Body").GetComponent<SpriteRenderer>().color.r<.8f),"Other classmates changed");
+        for(int i=0;i<6;i++)Require(cloud.transform.Find("Weather_"+i).GetComponent<SpriteRenderer>().enabled==false,"Rain/link state "+i);
     }
     static void Run()
     {
@@ -126,30 +130,73 @@ public static class ChapterOneEndingChecks
         Add(()=>{Choose(1);Stage(ChapterOneEndingStage.DraftPending);Require(!p.DraftKept&&!p.CompleteFinalPaper(0),"Draft resolves before animation");});
         Add(()=>Capture("04-keeping-draft"));
         Add(()=>{Close();Snapshot("draft-pending");p.Reload();Stage(ChapterOneEndingStage.DraftPending);Require(!p.DraftKept,"Interrupted action resolved off-screen");scene.Travel("MochaStore");});WaitScene("MochaStore");
-        Add(()=>{Require(!p.DraftKept&&scene.Objective.Contains("返回学校"),"Pending draft while away");Open("CraftTable");Require(ui.DialogueText.Contains("已分享")||ui.Speaker.Contains("已分享"),"Stale crafting result");Close();scene.Travel("School");});WaitScene("School");
+        Add(()=>{Require(scene.portalGlow.GetComponent<ChapterOnePortalEffect>()!=null&&scene.portalGlow.transform.Find("AnimatedGreenMagic").Find("Spiral_0")!=null,"Portal animation absent");Require(!p.DraftKept&&scene.Objective.Contains("返回学校"),"Pending draft while away");Open("CraftTable");Require(ui.DialogueText.Contains("已分享")||ui.Speaker.Contains("已分享"),"Stale crafting result");Close();scene.Travel("School");});WaitScene("School");
         Add(()=>Open("NPC_Xiaoyu"));WaitDraft();
-        Add(()=>{Stage(ChapterOneEndingStage.CloudQuestion);Require(p.Data.phase==ChapterOnePhase.AnomalyResolved&&p.Data.finalPaperMask==0&&!p.KeepDraft(),"Animation checkpoint");Require(ui.DialogueText=="诶？云怎么还在？","Cloud question missing");Capture("05-cloud-remains");});
+        Add(()=>{Stage(ChapterOneEndingStage.CloudQuestion);Require(p.Data.phase==ChapterOnePhase.AnomalyResolved&&p.Data.finalPaperMask==0&&!p.KeepDraft(),"Animation checkpoint");Require(ui.DialogueText=="看，sheila 的云变白了！","Cloud question missing");Capture("05-cloud-remains");});
         Add(()=>{Choose(0);Require(ui.DialogueText=="可是……纸团好像不再出现了。","Heroine observation missing");});
-        Add(()=>{Choose(0);Stage(ChapterOneEndingStage.FinalCleaning);CheckWeather();Pass("Sharing consumes once; taste leaves anomaly unchanged; interrupted draft replays; only completed action stops links while rain remains");});
+        Add(()=>{Choose(0);Stage(ChapterOneEndingStage.FinalCleaning);CheckWeather();Pass("Sharing consumes once; taste leaves anomaly unchanged; interrupted draft replays; only completed action whitens sheila cloud and stops rain and links");});
         Add(()=>{Open("XiaoyuSketchbook");Require(ui.DialogueText.Contains("保留")&&p.Data.finalPaperMask==0,"Draft mistaken for trash");Close();});
-        Add(()=>{Open("Recurring_2");Require(p.FinalPaperCount==1&&!Target("Recurring_2").enabled,"Paper not removed");Close();Snapshot("partial-cleaning");p.Reload();Require(p.FinalPaperCount==1&&!p.CompleteFinalPaper(2),"Duplicate cleanup reward");scene.Travel("MochaStore");});WaitScene("MochaStore");
+        Add(()=>{Open("Recurring_2");Require(p.FinalPaperCount==1&&!Target("Recurring_2").enabled&&!ui.DialogueOpen&&ui.player.enabled,"Paper pickup should be silent and keep movement");Close();Snapshot("partial-cleaning");p.Reload();Require(p.FinalPaperCount==1&&!p.CompleteFinalPaper(2),"Duplicate cleanup reward");scene.Travel("MochaStore");});WaitScene("MochaStore");
         Add(()=>{Open("ShopMatchaCloud");Require(!ui.DialogueText.Contains("带给")&&ui.DialogueText.Contains("纸团"),"Stale shop story");Close();scene.Travel("School");});WaitScene("School");
-        Add(()=>{Require(!Target("Recurring_2").enabled&&!Target("Recurring_2").chapterTarget.visual.activeSelf,"Clean paper respawn on travel");Open("Recurring_0");Require(p.FinalPaperCount==2&&!p.LocalAreaComplete,"Local completion too early");Close();});
-        Add(()=>{Open("Recurring_1");Stage(ChapterOneEndingStage.Checklist);Require(p.LocalAreaComplete&&!p.ChapterComplete&&p.CleanCount==4,"Local/global completion conflated");Require(ui.DialogueText.Contains("100%")&&ui.DialogueText.Contains("关联区域"),"Settlement scope wrong");Snapshot("checklist");});
+        Add(()=>{Require(!Target("Recurring_2").enabled&&!Target("Recurring_2").chapterTarget.visual.activeSelf,"Clean paper respawn on travel");Open("Recurring_0");Require(p.FinalPaperCount==2&&!p.LocalAreaComplete&&!ui.DialogueOpen&&ui.player.enabled,"Second pickup should be silent");Close();});
+        Add(()=>{Open("Recurring_1");Stage(ChapterOneEndingStage.Checklist);Require(p.LocalAreaComplete&&!p.ChapterComplete&&p.CleanCount==4,"Local/global completion conflated");Require(!ui.DialogueOpen&&ui.player.enabled&&scene.Objective.Contains("sheila")&&!scene.Objective.Contains("出口"),"Final pickup must only update HUD");Snapshot("checklist");});
         Add(()=>Capture("06-local-completion"));
-        Add(()=>{Choose(0);Require(scene.Ending.AnimationPlaying&&!p.ChapterComplete,"Checklist skipped");});
+        Add(()=>{scene.LeaveSchool();Require(!scene.Ending.AnimationPlaying&&ui.Speaker=="先等一下"&&ui.DialogueText.Contains("sheila"),"Exit bypassed sheila");Close();});
+        Add(()=>{Open("NPC_Xiaoyu");Require(ui.Speaker=="sheila","Missing closing conversation");Choose(0);Require(ui.DialogueText.Contains("100%"),"Missing settlement after conversation");Choose(0);Require(scene.Ending.AnimationPlaying&&!p.ChapterComplete,"Checklist skipped");});
         Add(()=>Capture("07-crossed-checklist"));
         Add(()=>{Close();p.Reload();Stage(ChapterOneEndingStage.Checklist);Require(!p.ChapterComplete,"Interrupted ending marked complete");scene.Ending.StartChecklist();});
         WaitEnding();
         Add(()=>{Require(ui.DialogueText.Contains("同一条事项")&&ui.Speaker.StartsWith("第一章"),"Ending missing or chapter 2 started");Require(!p.FinishChapter()&&!p.HasDessert&&!p.BeginCrafting()&&!p.CollectPowder(),"Duplicate rewards after ending");Snapshot("complete");});
         Add(()=>Capture("08-restored-checklist"));
-        Add(()=>{Choose(0);Require(ui.player.enabled&&!ui.DialogueOpen,"Free exploration not restored");CheckWeather();scene.Investigation.ShowJournal(6);Require(ui.DialogueText.Contains("仍担心")&&!ui.DialogueText.Contains("治愈"),"Diary invents cure");});
+        Add(()=>{Choose(0);Require(ui.player.enabled&&!ui.DialogueOpen,"Free exploration not restored");CheckWeather();scene.Investigation.ShowJournal(6);Require(ui.DialogueText.Contains("云变白")&&!ui.DialogueText.Contains("治愈"),"Diary invents cure");});
         Add(()=>Capture("09-diary"));
         Add(()=>{scene.Investigation.ShowJournal(7);ui.Choose(0);Require(ui.Speaker.Contains("抹茶蛋糕")&&!ui.Speaker.Contains("未解锁"),"Starting cake locked");ui.Choose(1);Require(ui.Speaker.Contains("抹茶马卡龙")&&!ui.Speaker.Contains("未解锁")&&ui.DialogueText.Contains("低甜 · 牛奶"),"Macaron recipe not collected");});
         Add(()=>Capture("10-recipe-collection"));
         Add(()=>{ui.Choose(1);Require(ui.Speaker.Contains("未解锁")&&ui.DialogueText.Contains("Elaine"),"Elaine recipe prematurely unlocked");ui.Choose(1);Require(ui.Speaker.Contains("未解锁")&&ui.DialogueText.Contains("nate"),"Nate recipe prematurely unlocked");Close();scene.Travel("MochaStore");});WaitScene("MochaStore");
         Add(()=>{Require(p.ChapterComplete&&scene.ProgressLabel.Contains("已完成"),"Completed travel lost");Open("CraftTable");Require(ui.Speaker.Contains("已分享"),"Repeat tutorial after ending");Close();scene.Travel("School");});WaitScene("School");
-        Add(()=>{Require(p.ChapterComplete&&scene.chapterTargets.Where(t=>t.action==ChapterOneAction.RecurringPaper).All(t=>!t.visual.activeSelf&&!t.interaction.enabled),"End cleanup lost");scene.LeaveSchool();Require(ui.Speaker.StartsWith("第一章"),"Exit cannot revisit ending");Close();Pass("All three original points cleaned manually; collection and factual diary; same checklist restored; free exploration and cross-scene state persist");});
+        Add(()=>{Require(p.ChapterComplete&&scene.chapterTargets.Where(t=>t.action==ChapterOneAction.RecurringPaper).All(t=>!t.visual.activeSelf&&!t.interaction.enabled),"End cleanup lost");scene.LeaveSchool();Require(!ui.DialogueOpen&&!scene.Ending.AnimationPlaying,"Exit should not reopen completed ending");Close();Pass("All three original points cleaned manually; collection and factual diary; same checklist restored; free exploration and cross-scene state persist");});
+    }
+    static Vector3 spiralPosition;
+    static void Visual()
+    {
+        Add(()=>{LoadPacked();Near("NPC_Xiaoyu");if(!scene.CloudVisionActive)scene.ToggleCloudVision();});
+        Add(()=>Capture("cloud-before"));
+        Add(()=>{p.ShareDessert();p.ReflectOnDraft();p.PrepareToKeepDraft(0);p.KeepDraft();CheckWeather();});
+        Add(()=>Capture("cloud-white"));
+        Add(()=>{Target("DessertEntranceLocker").locker.SetOpen(true);Near("DessertEntranceLocker");});
+        Add(()=>Capture("school-portal"));
+        Add(()=>scene.Travel("MochaStore"));WaitScene("MochaStore");
+        Add(()=>{Near("ReturnToSchool");scene.PlacePlayer(new Vector2(-5.3f,1f));Require(scene.portalGlow.GetComponent<ChapterOnePortalEffect>()!=null,"Missing animated portal");});
+        Add(()=>{spiralPosition=scene.portalGlow.transform.Find("AnimatedGreenMagic/Spiral_127").localPosition;Capture("portal-01");});
+        Add(()=>{Require(Vector3.Distance(spiralPosition,scene.portalGlow.transform.Find("AnimatedGreenMagic/Spiral_127").localPosition)>.001f,"Spiral is not rotating");Capture("portal-02");});
+        Add(()=>{var m=scene.portalGlow.transform.Find("AnimatedGreenMagic/Mote_0");Require(m!=null,"Mote missing");Pass("White cloud, other NPC clouds unchanged, portal rendered across animation frames");});
+    }
+    static ChapterOneAudio audio;
+    static float musicTime;
+    static int sounds;
+    static void Audio()
+    {
+        Add(()=>{
+            LoadPacked();audio=ChapterOneAudio.Ensure();audio.SendMessage("OnApplicationFocus",true);
+            Require(audio.musicClip!=null&&audio.interactionClip!=null,"Missing audio assets");
+            Require(audio.musicClip.length>40&&audio.interactionClip.length<1,"Placeholder durations");
+            Require(audio.MusicSource.loop&&audio.MusicSource.spatialBlend==0&&audio.MusicSource.isPlaying,"Music not playing in 2D loop");
+            Require(UnityEngine.Object.FindObjectsOfType<ChapterOneAudio>().Length==1,"Duplicate audio manager");
+            musicTime=audio.MusicSource.time;sounds=audio.InteractionPlayCount;
+            Require(!ui.TryInteract(null)&&audio.InteractionPlayCount==sounds,"Rejected interaction played sound");
+        });
+        Add(()=>{audio.SendMessage("OnApplicationFocus",true);Open("NPC_Xiaoyu");Require(audio.InteractionPlayCount==sounds+1,"Accepted interaction sound missing");sounds=audio.InteractionPlayCount;Require(!ui.TryInteract(Target("NPC_Xiaoyu"))&&sounds==audio.InteractionPlayCount,"Open dialogue repeated sound");});
+        Add(()=>{audio.SendMessage("OnApplicationFocus",true);ui.Choose(99);Require(audio.InteractionPlayCount==sounds,"Invalid choice played sound");ui.Choose(1);Require(audio.InteractionPlayCount==sounds+1,"Choice sound missing");});
+        Add(()=>{musicTime=audio.MusicSource.time;scene.Travel("MochaStore");});WaitScene("MochaStore");
+        Add(()=>{
+            audio.SendMessage("OnApplicationFocus",true);
+            Require(ChapterOneAudio.Instance==audio&&UnityEngine.Object.FindObjectsOfType<ChapterOneAudio>().Length==1,"Scene switch duplicates music");
+            Require(audio.MusicSource.time>=musicTime,"Scene switch restarted music");
+            audio.SendMessage("OnApplicationFocus",false);Require(!audio.MusicSource.isPlaying,"Focus pause missing");
+            audio.SendMessage("OnApplicationFocus",true);Require(audio.MusicSource.isPlaying,"Focus resume missing");
+            audio.MusicSource.timeSamples=audio.musicClip.samples-4410;
+        });
+        Add(()=>{Require(audio.MusicSource.isPlaying&&audio.MusicSource.time<2,"Music loop failed");Pass("Music starts, loops and persists across scenes; accepted interactions and choices sound once; rejected actions silent; focus pause/resume");scene.Travel("School");});WaitScene("School");
     }
     static void Matrix()
     {
@@ -172,7 +219,7 @@ public static class ChapterOneEndingChecks
             if(mode=="resume-tasting") {Stage(ChapterOneEndingStage.Tasting);scene.Ending.OpenSheila();Require(ui.DialogueText.Contains("奶香"),"Lost flavour feedback");}
             else if(mode=="resume-draft-pending") {Stage(ChapterOneEndingStage.DraftPending);Require(!p.DraftKept&&p.Data.finalPaperMask==0,"Draft skipped on cold reload");scene.Ending.OpenSheila();Require(scene.Ending.AnimationPlaying,"Pending action not replayed");Close();}
             else if(mode=="resume-partial-cleaning") {Stage(ChapterOneEndingStage.FinalCleaning);Require(p.FinalPaperCount==1&&!Target("Recurring_2").enabled&&Target("Recurring_0").enabled,"Partial cleanup lost");}
-            else if(mode=="resume-checklist") {Stage(ChapterOneEndingStage.Checklist);Require(p.LocalAreaComplete&&!p.ChapterComplete,"Ending skipped on cold reload");scene.LeaveSchool();Require(ui.Speaker.Contains("区域"),"Cannot resume ending");}
+            else if(mode=="resume-checklist") {Stage(ChapterOneEndingStage.Checklist);Require(p.LocalAreaComplete&&!p.ChapterComplete,"Ending skipped on cold reload");scene.LeaveSchool();Require(ui.Speaker=="先等一下"&&!scene.Ending.AnimationPlaying,"Exit must not resume ending");Close();scene.Ending.OpenSheila();Require(ui.Speaker=="sheila","Cannot resume via sheila");}
             else {Stage(ChapterOneEndingStage.Complete);Require(p.FinalPaperCount==3&&!p.ShareDessert()&&!p.FinishChapter(),"Completed save duplicated state");scene.Investigation.ShowJournal(6);Require(ui.DialogueText.Contains("3 处"),"Diary lost");}
             Close();Pass("Cold startup restores "+mode);
         });

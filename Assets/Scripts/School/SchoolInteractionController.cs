@@ -107,6 +107,12 @@ public sealed class SchoolInteractionController : MonoBehaviour
 
     public bool TryInteract(SchoolInteractable target)
     {
+        bool accepted=TryInteractCore(target);
+        if(accepted)ChapterOneAudio.Ensure().PlayInteraction();
+        return accepted;
+    }
+    private bool TryInteractCore(SchoolInteractable target)
+    {
         if (DialogueOpen || Time.unscaledTime < nextInteraction || !CanReach(target)) return false;
         nextInteraction = Time.unscaledTime + .15f;
         CurrentTarget = target;
@@ -160,6 +166,7 @@ public sealed class SchoolInteractionController : MonoBehaviour
     public void Choose(int index)
     {
         if (!DialogueOpen || index < 0 || index >= actions.Length) return;
+        ChapterOneAudio.Ensure().PlayInteraction();
         actions[index]?.Invoke();
     }
     public void CloseDialogue()
